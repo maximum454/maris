@@ -193,19 +193,20 @@ html,body{margin: 0;padding: 0;height: 100%; background: #fff;}
 	height: 40px;
 }
 .carousel-control.left{
-	left: 370px;
+	left: 200px;
 	background: url(../i/slider-arrow.png) no-repeat 0 0;
 }
 .carousel-control.left:hover{
 	background-position: 0 -40px;
 }
 .carousel-control.right{
-	right: 370px;
+	right: 200px;
 	background: url(../i/slider-arrow.png) no-repeat -40px 0;
 }
 .carousel-control.right:hover{
 	background-position: -40px -40px;
 }
+
 /**/
 
 /**/
@@ -276,6 +277,60 @@ html,body{margin: 0;padding: 0;height: 100%; background: #fff;}
 }
 #Abonement-Carousel .carousel-control {
 	top: 0;
+}
+.abonement-indicators li{
+	margin: 0!important;
+}
+.abonement-indicators li h3{
+	margin: 0;
+}
+.abonement-inner{
+	margin-top: 60px;
+}
+.abonement-inner .production-abonement_item{
+
+	margin: 13px;
+}
+.abonement-inner .production-abonement_item h4{
+	color: #444544;
+	font:normal 21px/30px 'PFAgoraSerifPro-bold';
+	text-transform: uppercase;
+	margin: 0;
+}
+.abonement-inner .production-abonement_item p{
+	color: #444544;
+	font:normal 80px/118px 'PFAgoraSerifPro-bold';
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.discount-abonement_item{
+	width: 356px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	margin:13px;
+	padding: 10px 9px;
+	border: 2px dotted #ce2e7d;
+}
+
+.discount-abonement_item:before{
+	content: '';
+	background: url(../i/aboniment-star-1.jpg) no-repeat;
+	width: 49px;
+	height: 12px;
+	position: absolute;
+	top: -8px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
+}
+.discount-abonement_item.abonement_item-color:before{
+	background: url(../i/aboniment-star-2.jpg) no-repeat;
+}
+.abonement_item-color{
+	border-color: #9e1aab;
 }
 /**/
 
@@ -371,7 +426,7 @@ html,body{margin: 0;padding: 0;height: 100%; background: #fff;}
 	position: relative;
 }
 .vantage_item{
-	width: 285px;
+	/*width: 285px;*/
 	text-align: center;	
 }
 .vantage_item-img{
@@ -526,7 +581,7 @@ html,body{margin: 0;padding: 0;height: 100%; background: #fff;}
 	position: relative;
 	width: 200px;
 	height: 200px;
-	margin: 0 auto;
+	margin: 20px auto;
 	overflow: hidden;
 	text-align: center;
 }
